@@ -4,4 +4,6 @@
 # or whitespace (' ').
 class EmailAddressParser 
   def initialize(str)
-    @email = email
+    @email = email.new(str)
+  end
+end 
